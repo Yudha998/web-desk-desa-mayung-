@@ -1,0 +1,57 @@
+.selamat-datang h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 75px;
+  margin-top: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.selamat-datang h3 {
+  color: rgb(41, 41, 41);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.selamat-datang {
+  background-color: #b3b3b3;
+  padding: 2rem;
+}
+
+.kartu {
+  background-color: white;
+}
+
+.content {
+  color: rgb(191, 194, 194);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.slide {
+  background-color: #7fffd4;
+  padding-bottom: 0rem;
+}
+
+.gambar {
+  color: rgb(32, 32, 32);
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer {
+  background-color: #d3d4d4;
+}
+
+.gelombang {
+  background-color: #d3d4d4;
+}
+
+.isi-desk {
+  color: rgb(214, 214, 214);
+  text-align: center;
+}
+
+.isi-tabel {
+  border-color: #d3d4d4;
+  color: #d3d4d4;
+}
