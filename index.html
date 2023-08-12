@@ -67,11 +67,11 @@
         <h3 class="content" id="konten" data-aos="fade-up">konten :</h3>
         <br />
 
-        <div class="utama" data-aos="fade-up">
+        <div class="utama" >
           <div class="kartu">
             <div class="card-group text-bg-dark">
               <div class="card text-bg-dark border-dark" style="background-color: 302f2f">
-                <div class="card-body">
+                <div class="card-body" data-aos="fade-in" data-aos-duration="700" data-aos-delay="500">
                   <h5 class="card-title">penjelasan</h5>
                   <p class="card-text">penjelasan desa mayung atau text deskripsi desa mayung</p>
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
@@ -80,7 +80,7 @@
               </div>
               <br />
               <div class="card text-bg-dark border-dark" style="background-color: 302f2f">
-                <div class="card-body">
+                <div class="card-body" data-aos="fade-in" data-aos-duration="700" data-aos-delay="600">
                   <h5 class="card-title">sejarah</h5>
                   <p class="card-text">sejarah tentang desa mayung</p>
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
@@ -89,7 +89,7 @@
               </div>
               <br />
               <div class="card text-bg-dark border-dark" style="background-color: 302f2f">
-                <div class="card-body">
+                <div class="card-body" data-aos="fade-in" data-aos-duration="700" data-aos-delay="700">
                   <h5 class="card-title">data desa</h5>
                   <p class="card-text">data desa seperti jumlah penduduk, siapa yang mendirikannya pertama kali, dan siapa kepala desanya sekarang</p>
                   <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
@@ -177,7 +177,9 @@
     <!-- javascript animasi-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
   </body>
 </html>
