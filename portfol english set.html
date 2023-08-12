@@ -67,9 +67,9 @@
         <h3 class="content" id="konten" data-aos="fade-up">content :</h3>
         <br />
 
-        <div class="utama" data-aos="fade-up">
+        <div class="utama">
           <div class="kartu">
-            <div class="card-group text-bg-dark">
+            <div class="card-group text-bg-dark" data-aos="fade-in" data-aos-delay="300">
               <div class="card text-bg-dark border-dark" style="background-color: 302f2f">
                 <div class="card-body">
                   <h5 class="card-title">description</h5>
@@ -79,7 +79,7 @@
                 </div>
               </div>
               <br />
-              <div class="card text-bg-dark border-dark" style="background-color: 302f2f">
+              <div class="card text-bg-dark border-dark" style="background-color: 302f2f" data-aos="fade-in" data-aos-delay="400">
                 <div class="card-body">
                   <h5 class="card-title">history</h5>
                   <p class="card-text">history of Mayung village</p>
@@ -88,7 +88,7 @@
                 </div>
               </div>
               <br />
-              <div class="card text-bg-dark border-dark" style="background-color: 302f2f">
+              <div class="card text-bg-dark border-dark" style="background-color: 302f2f" data-aos="fade-in" data-aos-delay="500">
                 <div class="card-body">
                   <h5 class="card-title">details of village</h5>
                   <p class="card-text">village data such as population, who founded it first, and who is the head of the village now</p>
@@ -165,7 +165,9 @@
     <!-- javascript animasi-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
   </body>
 </html>
